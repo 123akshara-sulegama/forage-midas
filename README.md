@@ -3,11 +3,11 @@
 
 Backend microservice built as part of the JPMorgan Chase Advanced Software Engineering Virtual Experience (Forage).
 
-## 🚀 Overview
+##  Overview
 
 Midas Core is a Spring Boot microservice that processes financial transactions using Apache Kafka, persists data using H2 database with JPA, integrates an external REST Incentive API, and exposes a REST endpoint to retrieve user balances.
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - Java 17
 - Spring Boot
@@ -17,7 +17,7 @@ Midas Core is a Spring Boot microservice that processes financial transactions u
 - REST APIs
 - Maven
 
-## 🧩 Architecture
+##  Architecture
 
 - Kafka Listener for transaction ingestion
 - Service layer for business logic
@@ -25,7 +25,7 @@ Midas Core is a Spring Boot microservice that processes financial transactions u
 - REST Controller for balance retrieval
 - H2 Database for persistence
 
-## 📌 Features Implemented
+##  Features Implemented
 
 - Integrated Kafka consumer for transaction processing
 - Persisted transaction records using Spring Data JPA
@@ -33,7 +33,7 @@ Midas Core is a Spring Boot microservice that processes financial transactions u
 - Updated user balances dynamically
 - Exposed REST endpoint: `GET /balance?userId=1`
 
-## 🧠 Key Learning
+## Key Learning
 
 - Event-driven architecture
 - Backend microservice design
@@ -41,7 +41,7 @@ Midas Core is a Spring Boot microservice that processes financial transactions u
 - Database modeling with JPA
 - Clean layered architecture
 
-## 📜 Certification
+##  Certification
 
 JPMorgan Chase Software Engineering Job Simulation – February 2026
 
